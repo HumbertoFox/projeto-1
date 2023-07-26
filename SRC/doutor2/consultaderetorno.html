@@ -8,13 +8,18 @@
 <body>
     <h1>Agendamento Consulta de Retorno</h1>
 
-    <form action="">
-        <label for="nome">Nome</label>
+    <form method="GET" action="">
+        <label for="cpf">CPF</label>
+        <input type="text" name="cpf" id="cpf">
+        <input type="submit" name="" id="" value="Verificar retorno">
+        <label for="nome">Nome do Paciente</label>
         <input type="text" name="nome" id="nome">
         <label for="plano">Plano</label>
         <input type="text" name="plano" id="plano">
         <label for="telefone">Telefone</label>
         <input type="text" name="telefone" id="telefone">
+        <label for="data">Data do Retorno</label>
+        <input type="date" name="data" id="data">
     </form>
 </body>
 </html>
