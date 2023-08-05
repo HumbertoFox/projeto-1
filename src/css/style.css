@@ -7,7 +7,6 @@ body {
     display: flex;
     position: fixed;
     background-color: #4ED28E;
-    flex-direction: row-reverse;
     justify-content: center;
     top: 0;
     left: 0;
@@ -29,7 +28,6 @@ body {
 
 .headernav ul li {
     display: flex;
-    margin-right: 20px;
     align-items: center;
     justify-content: center;
 }
@@ -41,4 +39,16 @@ body {
     font-size: 15px;
     text-transform: uppercase;
     padding: 15px;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.h1crm {
+    display: flex;
+    justify-content: center;
 }
