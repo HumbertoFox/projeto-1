@@ -31,18 +31,32 @@
 
     </header>
 
-    <h1 class="h1crm">Agendamento Primeira Consulta</h1>
+    <h2 class="h2">Agendamento da Primeira Consulta</h2>
+    <h3 class="h3">Doutor1 CRM</h3>
 
-    <form class="form" method="POST" action="#">
-        <label for="nome">Nome do paciente</label>
-        <input type="text" name="nome" id="nome">
-        <label for="plano">Plano</label>
-        <input type="text" name="plano" id="plano">
-        <label for="telefone">Telefone</label>
-        <input type="text" name="telefone" id="telefone">
-        <label for="idade">Data de Nascimento</label>
-        <input type="date" name="idade" id="idade">
-    </form>
+    <section class="sectionform">
+        <form class="form" method="POST" action="#">
+            <div class="divinputs">
+                <label for="nome">Nome</label>
+                <input class="input" type="text" name="nome" id="nome">
+            </div>
+            <div class="divinputs">
+                <label for="plano">Plano</label>
+                <input class="input" type="text" name="plano" id="plano">
+            </div>
+            <div class="divinputs">
+                <label for="telefone">Telefone</label>
+                <input class="input" type="tel" name="telefone" id="telefone">
+            </div>
+            <div class="divinputs">
+                <label for="idade">Data de Nascimento</label>
+                <input class="input" type="date" name="idade" id="idade">
+            </div>
+            <div class="divsubmit">
+                <input class="submit" type="submit" value="Agendar Consulta">
+            </div>
+        </form>
+    </section>
 
 </body>
 

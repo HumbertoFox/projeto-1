@@ -31,21 +31,37 @@
 
     </header>
 
-    <h1 class="h1crm">Agendamento Consulta de Retorno</h1>
+    <h2 class="h2">Agendamento Consulta de Retorno</h2>
+    <h3 class="h3">Doutor2 CRM</h3>
 
-    <form class="form" method="POST" action="#">
-        <label for="cpf">CPF</label>
-        <input type="text" name="cpf" id="cpf">
-        <input type="submit" name="" id="" value="Verificar retorno">
-        <label for="nome">Nome do Paciente</label>
-        <input type="text" name="nome" id="nome">
-        <label for="plano">Plano</label>
-        <input type="text" name="plano" id="plano">
-        <label for="telefone">Telefone</label>
-        <input type="text" name="telefone" id="telefone">
-        <label for="data">Data do Retorno</label>
-        <input type="date" name="data" id="data">
-    </form>
+    <section class="sectionform">
+        <form class="form" method="POST" action="#">
+            <div class="divinputs">
+                <label for="cpf">Cpf</label>
+                <input class="input" type="text" name="cpf" id="cpf">
+            </div>
+            <div class="divsubmit">
+                <input class="submit" type="submit" name="" id="" value="Verificar retorno">
+            </div>
+            <div class="divinputs">
+                <label for="nome">Nome</label>
+                <input class="input" type="text" name="nome" id="nome">
+            </div>
+            <div class="divinputs">
+                <label for="plano">Plano</label>
+                <input class="input" type="text" name="plano" id="plano">
+            </div>
+            <div class="divinputs">
+                <label for="telefone">Telefone</label>
+                <input class="input" type="tel" name="telefone" id="telefone">
+            </div>
+            <div class="divinputs">
+                <label for="data">Data de retorno</label>
+                <input class="input" type="date" name="data" id="data">
+            </div>
+        </form>
+    </section>
+
 </body>
 
 </html>
