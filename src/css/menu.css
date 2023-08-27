@@ -1,0 +1,53 @@
+body {
+    background-color: #90EE90;
+}
+
+body .header {
+    display: flex;
+    position: fixed;
+    align-self: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 100vh;
+    background-color: #4ED28E;
+    gap: 20px;
+}
+
+body .header .divimg {
+    display: flex;
+    width: 150px;
+}
+
+body .header .headernav {
+    display: flex;
+    width: 100%;
+}
+
+body .header .headernav .navul {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+body .header .headernav .navul .navulli {
+    display: flex;
+    transition: .3s ease-in-out;
+}
+
+body .header .headernav .navul .navulli:hover {
+    background-color: #90EE90;
+}
+
+body .header .headernav .navul .navulli a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 0 15px 15px;
+    flex-grow: 1;
+}
+
+body .header .headernav .navul .navulli a .li-icon {
+    width: 40px;
+}
