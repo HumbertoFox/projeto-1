@@ -17,6 +17,7 @@ body .header {
 body .header .divimg {
     display: flex;
     width: 150px;
+    margin-top: 15px;
 }
 
 body .header .headernav {
@@ -34,6 +35,10 @@ body .header .headernav .navul {
 body .header .headernav .navul .navulli {
     display: flex;
     transition: .3s ease-in-out;
+}
+
+body .header .headernav .navul .navulli.activa {
+    background-color: #90EE90;
 }
 
 body .header .headernav .navul .navulli:hover {
