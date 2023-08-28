@@ -2,18 +2,15 @@ body {
     background-color: #90EE90;
 }
 
-.h2, .h3 {
-    display: flex;
-    justify-content: center;
+body .h2, body .h3 {
     margin: 10px 0;
 }
 
-.sectionform {
+body .sectionform {
     display: flex;
-    justify-content: center;
 }
 
-.form {
+body .form {
     display: flex;
     flex-direction: column;
     gap: 10px;
