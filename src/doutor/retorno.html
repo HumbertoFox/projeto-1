@@ -4,26 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar Paciente</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Agendar Paciente</title>
 </head>
 
 <body>
-
-    <h2 class="h2">Agendamento Primeira Consulta</h2>
-    <h3 class="h3">Doutor2 CRM</h3>
-
+    <h2 class="h2">Retorno</h2>
+    <h3 class="h3">Doutor CRM</h3>
     <section class="sectionform">
-
         <form class="form" method="POST" action="#">
+            <div class="divinputs">
+                <label class="label" for="pescpf">Cpf</label>
+                <input class="input" type="search" name="pescpf" id="pescpf">
+            </div>
+            <div class="divbtnsubmit">
+                <button class="bntsubmit" type="submit">Pesquisar CPF</button>
+            </div>
             <div class="divinputs">
                 <label for="nome">Nome</label>
                 <input class="input" type="text" name="nome" id="nome">
-            </div>
-            <div class="divinputs">
-                <label for="cpf">Cpf</label>
-                <input class="input" type="text" name="cpf" id="cpf">
             </div>
             <div class="divinputs">
                 <label for="plano">Plano</label>
@@ -34,16 +34,14 @@
                 <input class="input" type="tel" name="telefone" id="telefone">
             </div>
             <div class="divinputs">
-                <label for="idade">Data de Nascimento</label>
-                <input class="input" type="date" name="idade" id="idade">
+                <label for="cpf">Cpf</label>
+                <input class="input" type="text" name="cpf" id="cpf">
             </div>
-            <div class="divsubmit">
-                <input class="submit" type="submit" value="Agendar Consulta">
+            <div class="divbtnsubmit">
+                <button class="bntsubmit" type="submit">Agendar Retorno</button>
             </div>
         </form>
-
     </section>
-
 </body>
 
 </html>
