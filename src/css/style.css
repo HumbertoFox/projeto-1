@@ -2,21 +2,22 @@ body {
     background-color: #90EE90;
 }
 
-body .h2, body .h3 {
+.h2,
+.h3 {
     margin: 10px 0;
 }
 
-body .sectionform {
+.sectionform {
     display: flex;
 }
 
-body .form {
+.form {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.form .divinputs {
+.divinputs {
     display: flex;
     flex-direction: column;
 }
@@ -31,12 +32,12 @@ body .form {
     padding-left: 5px;
 }
 
-body .sectionform .form .divbtnsubmit {
+.divbtnsubmit {
     display: flex;
     align-self: center;
 }
 
-body .sectionform .form .divbtnsubmit .bntsubmit {
+.bntsubmit {
     width: 150px;
     height: 25px;
     background-color: #4ED28E;
@@ -44,7 +45,7 @@ body .sectionform .form .divbtnsubmit .bntsubmit {
     transition: .4s ease-in-out;
 }
 
-body .sectionform .form .divbtnsubmit .bntsubmit:hover {
+.bntsubmit:hover {
     color: aliceblue;
     cursor: pointer;
     box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24);
